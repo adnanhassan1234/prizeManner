@@ -1,0 +1,50 @@
+.toolList{
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  letter-spacing: -5px;
+
+
+  li{
+    padding: 2px;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 0;
+  }
+
+  .toolBox{
+    width: 82px;
+    height: 82px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #4B576E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    img{
+      max-width: 50px;
+      max-height: 50px;
+    }
+
+    input[type="checkbox"]{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 17px;
+      height: 17px;
+      margin: 5px;
+      border-radius: 5px;
+      border-color: #fff;
+      box-shadow: none;
+      outline: none;
+
+      &:checked{
+        background-color: #23B05B;
+        border-color: #23B05B;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,13 @@
+.logList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #959595;
+  font-size: 12px;
+  line-height: 16px;
+}
+.logList li {
+  margin: 0 0 5px;
+}
+
+/*# sourceMappingURL=index.module.css.map */

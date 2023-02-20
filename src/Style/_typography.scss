@@ -1,0 +1,121 @@
+// Typography
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+.h {
+  font-family: $rubik;
+  font-weight: 700;
+  margin: 0 0 0.5em;
+  color: #000;
+}
+
+h1, .h1 {
+  font-size: $h1-font-size;
+}
+
+h2, .h2 {
+  font-size: $h2-font-size;
+}
+
+h3, .h3 {
+  font-size: $h3-font-size;
+
+}
+
+h4, .h4 {
+  font-size: $h4-font-size;
+}
+
+h5, .h5 {
+  font-size: $h5-font-size;
+}
+
+h6, .h6 {
+  font-size: $h6-font-size;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: $color-black;
+  text-decoration: underline;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+[role="table"]{
+  div[class*="TableHeadRow"] {
+    background: #EFEFEF !important;
+    font-size: 13px !important;
+    border: none;
+    padding: 20px 0 !important;
+  }
+
+  div[class*="TableRow"] {
+    background: #fff !important;
+    border: none !important;
+    padding: 20px 0 !important;
+
+    &:nth-child(even){
+      background: rgba(0,0,0,0.02) !important;
+    }
+  }
+
+
+}
+
+nav[class*="_Pagination"] {
+  width: auto;
+  margin: 0 auto;
+  max-width: 200px;
+  display: block;
+  border: none;
+  position: relative;
+  padding: 15px 0;
+
+  span{
+    margin: 0;
+    display: block;
+    padding: 10px 50px;
+    text-align: center;
+
+    &:before{
+      content: 'Page';
+      display: inline;
+      margin: 0 5px 0 0;
+
+    }
+  }
+
+  #pagination-previous-page,
+  #pagination-next-page{
+    position: absolute;
+    top: 15px;
+    color: rgba(19, 15, 38, 0.4);
+    background: rgba(0,0,0,0.05);
+    border-radius: 8px;
+  }
+
+  #pagination-previous-page{
+    left: 0;
+  }
+  #pagination-next-page{
+    right: 0;
+  }
+
+  select,
+  select + svg,
+  .hFmMzt,
+  #pagination-first-page,
+  #pagination-last-page{
+    display: none;
+  }
+}

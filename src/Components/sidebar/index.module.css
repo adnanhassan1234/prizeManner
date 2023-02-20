@@ -1,0 +1,43 @@
+.sidebar {
+  width: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 15px 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  background: #fff;
+  float: left;
+}
+.sidebar.active {
+  width: 250px;
+  overflow-y: scroll;
+}
+.sidebar.active nav {
+  left: 0;
+}
+.sidebar nav {
+  position: relative;
+  left: -200px;
+}
+
+.navOpener {
+  width: 45px;
+  height: 45px !important;
+  line-height: 50px !important;
+  text-align: center !important;
+  font-size: 27px !important;
+  color: rgba(0, 0, 0, 0.2) !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto 20px;
+  padding: 0 !important;
+  background: #fff !important;
+  border: none !important;
+}
+.navOpener:hover {
+  color: #1c9312;
+}
+
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,27 @@
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.mainBox {
+  position: relative;
+  min-height: 100vh;
+}
+
+.mainContainer {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 991px) {
+  .mainBox {
+    position: relative;
+    padding: 0 0 0 0;
+    min-height: auto;
+  }
+}
+
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,38 @@
+.login {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: url("../../Images/authbg.svg") no-repeat, linear-gradient(#009427, #009427);
+  background-size: cover;
+  background-position: center;
+}
+.login .loginholder {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.fromHolder form {
+  padding: 75px;
+  margin: 0 !important;
+  border-radius: 25px;
+  background: #fff;
+}
+.fromHolder form .form-control,
+.fromHolder form select,
+.fromHolder form .form-select,
+.fromHolder form input[type=text],
+.fromHolder form input[type=tel],
+.fromHolder form input[type=email],
+.fromHolder form input[type=search],
+.fromHolder form input[type=password],
+.fromHolder form input[type=url],
+.fromHolder form input[type=date],
+.fromHolder form input[type=file],
+.fromHolder form textarea.form-control {
+  height: 50px;
+  line-height: 48px;
+}
+
+/*# sourceMappingURL=index.module.css.map */

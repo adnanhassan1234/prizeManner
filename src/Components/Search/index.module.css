@@ -1,0 +1,14 @@
+.searcBox {
+  position: relative;
+  max-width: 400px;
+}
+.searcBox input[type=search] {
+  background-image: url(../../Images/searchIcon.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 23px;
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.1);
+  height: 44px;
+  line-height: 42px;
+}
+
+/*# sourceMappingURL=index.module.css.map */

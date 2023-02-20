@@ -1,0 +1,102 @@
+.messageListSidebar {
+  width: 300px;
+  float: left;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+.messageListSidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: calc(100vh - 200px);
+  overflow: hidden;
+  overflow-y: auto;
+  scrollbar-color: #6e31a2 transparent;
+  scrollbar-width: 4px;
+  margin-top: 50px;
+}
+.messageListSidebar ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 15px 70px;
+  min-height: 55px;
+  cursor: pointer;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.messageListSidebar ul li.active, .messageListSidebar ul li:hover {
+  background: rgba(110, 49, 162, 0.1);
+}
+.messageListSidebar ul .userImg {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.messageListSidebar ul .userImg img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+.messageListSidebar ul .description {
+  overflow: hidden;
+  font-size: 12px;
+  padding: 0 40px 0 0;
+  position: relative;
+}
+.messageListSidebar ul .description .text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.messageListSidebar ul .description .counter {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.messageListSidebar ul .description time {
+  float: right;
+  padding: 0 0 0 20px;
+  position: relative;
+  margin-left: 10px;
+}
+.messageListSidebar ul .description time:before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.2);
+  display: block;
+  top: 7px;
+  left: 6px;
+  border-radius: 50%;
+}
+.messageListSidebar ul h6 {
+  font-size: 14px;
+  margin: 0;
+}
+.messageListSidebar .search-form .form-control {
+  border-color: transparent;
+}
+
+@media only screen and (max-width: 766px) {
+  .messageListSidebar {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,46 @@
+
+.login{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: url('../../Images/authBgPrizeminer.png') no-repeat, linear-gradient(#009427, #009427);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-y: scroll;
+
+
+
+  .loginholder{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+  }
+}
+
+.fromHolder{
+  
+  form{
+    padding: 75px;
+    margin: 0 !important;
+    border-radius: 25px;
+    background: #fff;
+
+    .form-control,
+    select,
+    .form-select,
+    input[type='text'],
+    input[type='tel'],
+    input[type='email'],
+    input[type='search'],
+    input[type='password'],
+    input[type='url'],
+    input[type='date'],
+    input[type='file'],
+    textarea.form-control{
+      height: 50px;
+      line-height: 48px;
+    }
+  }
+}

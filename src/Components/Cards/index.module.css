@@ -1,0 +1,33 @@
+.cards {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  box-shadow: 0px 20px 40px -32px rgba(0, 0, 0, 0.5);
+}
+.cards .iconBox {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.cards .description {
+  position: relative;
+  overflow: hidden;
+}
+.cards h4 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.left .iconBox {
+  float: left;
+}
+
+/*# sourceMappingURL=index.module.css.map */

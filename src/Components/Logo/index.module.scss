@@ -1,0 +1,32 @@
+.logo{
+  max-width: 325px;
+  margin: 0 auto;
+
+  a{
+    display: block;
+
+    img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.hidemenu{
+  display: none;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .logo{
+    max-width: 150px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 657px) {
+  .logo{
+    max-width: 120px;
+  }
+}
